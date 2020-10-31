@@ -70,7 +70,7 @@ def store_tweetid(tweetd_id):
 
 def reply(text,tweet):
     if text[0]=='Errorr':
-        reply_tweet=api.update_status("@"+tweet.user.screen_name+" "+ text[1],id)
+        reply_tweet=api.update_status("@"+tweet.user.screen_name+" "+text[1],tweet.id)
         id=reply_tweet.id
 
     else:
@@ -81,13 +81,16 @@ def reply(text,tweet):
                     reply_tweet=api.update_status("@"+tweet.user.screen_name+" " +'بسم الله الرحمن الرحيم'+'\n'+ text[i],id)
                     id=reply_tweet.id
                 else:
-                    reply_tweet=api.update_status("@"+tweet.user.screen_name+" "+'بسم الله الرحمن الرحيم'+'\n'+ text[i]+"+",id)
+                    no=i+1
+                    reply_tweet=api.update_status("@"+tweet.user.screen_name+" T"+str(no)+": "+'بسم الله الرحمن الرحيم'+'\n'+ text[i]+"+",id)
                     id=reply_tweet.id
             elif i != len(text)-1:
-                reply_tweet=api.update_status("@"+tweet.user.screen_name+" "+ text[i]+"+",id)
+                no=i+1
+                reply_tweet=api.update_status("@"+tweet.user.screen_name+" T"+str(no)+": "+ text[i]+"+",id)
                 id=reply_tweet.id
             else:
-                reply_tweet=api.update_status("@"+tweet.user.screen_name+" "+ text[i],id)
+                no=i+1
+                reply_tweet=api.update_status("@"+tweet.user.screen_name+" T"+str(no)+": "+ text[i],id)
                 id=reply_tweet.id
 
 
@@ -120,7 +123,7 @@ def TextData(dict):
             quran_text=textwrap.wrap(quran_text,235)
             return quran_text
         else:
-            quran_text=["Errorr","Please enter the correct surah number"]
+            quran_text=["Errorr","sorry,we can't interpret your data.Please enter the correct details"]
             return quran_text
 
 def Last_reply(tweet):
@@ -132,12 +135,12 @@ def Last_reply(tweet):
             try:
                 quran_text=TextData(dict)
             except (KeyError,ValueError,IndexError):
-                quran_text=["Errorr","sorry, we can't interpret your data"]
+                quran_text=["Errorr","sorry, we can't interpret your data.please enter the correct details"]
             reply(quran_text,tweet)
             store_tweetid(tweet.id)
             time.sleep(60*1.5)
         else:
-            quran_text=["Errorr","sorry, we can't interpret your data"]
+            quran_text=["Errorr","sorry, we can't interpret your data.please enter the correct details"]
             reply(quran_text,tweet)
             store_tweetid(tweet.id)
             time.sleep(60*1.5)
