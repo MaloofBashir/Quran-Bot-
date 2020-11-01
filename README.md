@@ -1,4 +1,4 @@
-<h3 style="text-align:center">بِسْمِ ٱللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h3> 
+<h3 align="center">بِسْمِ ٱللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h3> 
 <h1>@AlQuranBot_ Bot Documentation</h1>
 
 This bot will help the users to easily retrive Quranic ayahs on twitter micro blogging site
