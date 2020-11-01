@@ -3,37 +3,37 @@
 This bot will help the users to easily retrive Quranic ayahs on twitter micro blogging site,The bot has been restricted to fetch only single ayah at once because of twitter limting API request policy <hr>
 
 <h3>How to retrieve The ayah</h3>
-In its simplified version the English translation of ayah can be retrieved by first mentioning the username of bot (@AlQuranBot_) followed by two paramaters(key value pairs) <code>surah={value}</code>or<code>s_name={value}</code>and<code>ayah={value}</code> e.g <br>
- <img src="https://user-images.githubusercontent.com/44017606/97796511-c859b280-1c38-11eb-9510-98a8eeaf9f62.jpg" alt="Surah no and Ayah no" height="500" width="350">  <img src="https://user-images.githubusercontent.com/44017606/97796450-381b6d80-1c38-11eb-96c1-37ac4b745ab0.jpg" alt="Surah name and ayah number" height="500" width="350">
+In its simplified version, the english translation of ayah can be retrieved by first mentioning the username of bot (@AlQuranBot_) followed by two paramaters(key value pairs) <code>surah={value}</code>or<code>s_name={value}</code>and<code>ayah={value}</code> e.g <br>
+ <img src="https://user-images.githubusercontent.com/44017606/97796511-c859b280-1c38-11eb-9510-98a8eeaf9f62.jpg" alt="Surah no and Ayah no" height="500" width="350"><img src="https://user-images.githubusercontent.com/44017606/97796450-381b6d80-1c38-11eb-96c1-37ac4b745ab0.jpg" alt="Surah name and ayah number" height="500" width="350">
  <br>
-By default the bot will retrieve and reply the mentioned tweet with Englsih Translation by Ahmad Ali,You can change the edition(translation) by passing in the <code>ed</code> parameter ,hook with us and and we will discuss how to do that very soon
+By default the bot will retrieve and reply the mentioned tweet with englsih Translation by Ahmad Ali,You can change the edition(translation) by passing in the <code>ed</code> parameter ,hook with us and and we will discuss how to do that very soon
 <br>
 
 
 <h3>How to get differnet editions (translations) of Quran and in different languages</h3>
 
-Users can get the translations of their own choice and the choice of thier own language just by writing one extra paramater <code> ed={value}</code> e.g <code>ed=hi.farooq</code> as shown in images below , here <code>hi</code> represents hindi language and Farooq reprersents the writers name.All the values are written below in a table and as of now we provide 139 editions by different people in different languages ,Thanks to <a href="https://alquran.cloud/">Al Quran API's</a>  for providing free API's and making it possible for us to spread their work , May Allah bless their team <br>
+Users can get the translations of their own choice and the choice of thier own language just by writing one extra paramater <code> ed={value}</code> e.g <code>ed=hi.farooq</code> as shown in images below , here <code>hi</code> represents hindi language and Farooq reprersents the writers name.All values are written below in a table and as of now we provide 139 editions by different people in different languages ,Thanks to <a href="https://alquran.cloud/">Al Quran API's</a>  for providing free API's and making it possible for us to spread their work , May Allah bless their team <br>
  <img src="https://user-images.githubusercontent.com/44017606/97796436-2043e980-1c38-11eb-9669-031104395899.jpg" alt="" height="500" width="300"><img src="https://user-images.githubusercontent.com/44017606/97796476-87619e00-1c38-11eb-80a8-792c490a2d4e.jpg" alt="" height="600" width="300"> <br>
  <h3>Commonds/Parameters<h3>
   
 <table>
   <tr>
     <th>Commond/Parameter</th>
-   <th><code>Value</code></th>
-   <th><code>Type</code></th>
+   <th>Value</th>
+   <th>Type</th>
   </tr>
   <tr>
-    <td>Surah</td>
+   <td><code>surah</code></td>
     <td>surah  number from Quran</td>
     <td>Integers ony</td>
   </tr>
   <tr>
-    <td>ayah</td>
+   <td><code>ayah</code></td>
     <td>Ayah of mentioned surah</td>
     <td>Integers</td>
   </tr>
   <tr>
-    <td>s-name</td>
+   <td><code>s-name</code></td>
     <td>name of the surah</td>
     <td>string </td>
   </tr>
@@ -43,7 +43,7 @@ Users can get the translations of their own choice and the choice of thier own l
     <td>String</td>
   </tr>
 </table>
-<h6>We all are very much familier with the values of surah and ayah so we will be mentioning the value of s-name and ed ony.This will help you to  fetch the diferent editions easily</h6>
+<h6>We all are very much familiar with the values of surah and ayah so we will be mentioning the values of s-name and ed ony.This will help you to  fetch the diferent editions easily</h6>
 <h3>Vaues for ed and s-name </h3>
 
 <table>
