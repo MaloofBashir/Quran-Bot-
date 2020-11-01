@@ -38,7 +38,7 @@ Users can get the translations of their own choice and the choice of thier own l
     <td>string </td>
   </tr>
   <tr>
-    <td>ed</td>
+   <td><code>ed</code></td>
     <td>Edition you want</td>
     <td>String</td>
   </tr>
@@ -48,7 +48,7 @@ Users can get the translations of their own choice and the choice of thier own l
 
 <table>
   <tr>
-    <th>s-name</th>
+   <th><code>s-name</code></th>
    <th><code>ed</code></th>
   </tr>
   <tr>
