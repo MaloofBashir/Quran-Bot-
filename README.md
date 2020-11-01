@@ -4,7 +4,7 @@ This bot will help the users to easily retrive Quranic ayahs on twitter micro bl
 
 <h3>How to retrieve The ayah</h3>
 In its simplified version, the english translation of ayah can be retrieved by first mentioning the username of bot (@AlQuranBot_) followed by two paramaters(key value pairs) <code>surah={value}</code>or<code>s_name={value}</code>and<code>ayah={value}</code> e.g <br>
- <img src="https://user-images.githubusercontent.com/44017606/97796511-c859b280-1c38-11eb-9510-98a8eeaf9f62.jpg" alt="Surah no and Ayah no" height="500" width="350"><img src="https://user-images.githubusercontent.com/44017606/97796450-381b6d80-1c38-11eb-96c1-37ac4b745ab0.jpg" alt="Surah name and ayah number" height="500" width="350">
+ <div class="row"><img src="https://user-images.githubusercontent.com/44017606/97796511-c859b280-1c38-11eb-9510-98a8eeaf9f62.jpg" alt="Surah no and Ayah no" height="500" width="350"><img src="https://user-images.githubusercontent.com/44017606/97796450-381b6d80-1c38-11eb-96c1-37ac4b745ab0.jpg" alt="Surah name and ayah number" height="500" width="350"> </div>
  <br>
 By default the bot will retrieve and reply the mentioned tweet with englsih Translation by Ahmad Ali,You can change the edition(translation) by passing in the <code>ed</code> parameter ,hook with us and and we will discuss how to do that very soon
 <br>
