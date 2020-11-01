@@ -5,10 +5,9 @@ This bot will help the users to easily retrive Quranic ayahs on twitter micro bl
 
 <h3>How to retrieve The ayah</h3>
 
-In its simplified version the English translation of ayah can be retrieved by first mentioning the username of bot (@AlQuranBot_) followed by two paramaters(key value pairs) surah={value} or s_name={value} and ayah={value} e.g
- <h4> @AlQuranBot_  surah=22 ayah=4 </h4> 
- or 
- <h4> @AlQuranBot_  s-name=Al-Baqara ayah=32 </h4>
+In its simplified version the English translation of ayah can be retrieved by first mentioning the username of bot (@AlQuranBot_) followed by two paramaters(key value pairs) surah={value} or s_name={value} and ayah={value} e.g <br>
+ <img src="https://user-images.githubusercontent.com/44017606/97796511-c859b280-1c38-11eb-9510-98a8eeaf9f62.jpg" alt="Surah no and Ayah no" height="500" width="350">  <img src="https://user-images.githubusercontent.com/44017606/97796450-381b6d80-1c38-11eb-96c1-37ac4b745ab0.jpg" alt="Surah name and ayah number" height="500" width="350">
+ 
 Alert:-By default the bot will retrieve and reply the mentioned tweet with Englsih Translation by Ahmad Ali , You can change the edition(translation) by passing in the 'ed' parameter ,hook with us and and we will discuss how to do that very soon
 <br>
 
@@ -16,9 +15,8 @@ Alert:-By default the bot will retrieve and reply the mentioned tweet with Engls
 <h3>How to get differnet editions (translations) of Quran and in different languages</h3>
 
 Users can get the translations of their own choice and the choice of thier own language just by writing one extra paramater ed={value} e.g
-ed=en.AhmadAli , here 'en' represents english and Ahmad Ali reprersents the writers name.All the values are written below and
-as of now we provide 138 editions by different people in different languages ,Thanks to <a href="https://alquran.cloud/">Al Quran API's</a>  for providing free API's and making it possible for us to spread their work , May Allah bless their team 
- 
+ed=hi.farooq as shown in images below , here 'hi' represents hindi language and Farooq reprersents the writers name.All the values are written below and as of now we provide 138 editions by different people in different languages ,Thanks to <a href="https://alquran.cloud/">Al Quran API's</a>  for providing free API's and making it possible for us to spread their work , May Allah bless their team <br>
+ <img src="https://user-images.githubusercontent.com/44017606/97796436-2043e980-1c38-11eb-9669-031104395899.jpg" alt="" height="500" width="300"><img src="https://user-images.githubusercontent.com/44017606/97796476-87619e00-1c38-11eb-80a8-792c490a2d4e.jpg" alt="" height="600" width="300"> <br>
  <h3>Commonds/Parameters<h3>
   
 <table>
