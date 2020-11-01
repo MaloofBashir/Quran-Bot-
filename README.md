@@ -1,7 +1,7 @@
 <h3 align="center">بِسْمِ ٱللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h3> 
 <h1>@AlQuranBot_ Bot Documentation</h1>
 
-This bot will help the users to easily retrive Quranic ayahs on twitter micro blogging site
+This bot will help the users to easily retrive Quranic ayahs on twitter micro blogging site, Users can fetch only single ayah at once because of twitter limting API request policy
 
 <h3>How to retrieve The ayah</h3>
 
@@ -15,7 +15,7 @@ Alert:-By default the bot will retrieve and reply the mentioned tweet with Engls
 <h3>How to get differnet editions (translations) of Quran and in different languages</h3>
 
 Users can get the translations of their own choice and the choice of thier own language just by writing one extra paramater ed={value} e.g
-ed=hi.farooq as shown in images below , here 'hi' represents hindi language and Farooq reprersents the writers name.All the values are written below and as of now we provide 138 editions by different people in different languages ,Thanks to <a href="https://alquran.cloud/">Al Quran API's</a>  for providing free API's and making it possible for us to spread their work , May Allah bless their team <br>
+ed=hi.farooq as shown in images below , here 'hi' represents hindi language and Farooq reprersents the writers name.All the values are written below in a table and as of now we provide 139 editions by different people in different languages ,Thanks to <a href="https://alquran.cloud/">Al Quran API's</a>  for providing free API's and making it possible for us to spread their work , May Allah bless their team <br>
  <img src="https://user-images.githubusercontent.com/44017606/97796436-2043e980-1c38-11eb-9669-031104395899.jpg" alt="" height="500" width="300"><img src="https://user-images.githubusercontent.com/44017606/97796476-87619e00-1c38-11eb-80a8-792c490a2d4e.jpg" alt="" height="600" width="300"> <br>
  <h3>Commonds/Parameters<h3>
   
@@ -313,3 +313,12 @@ az.mammadaliyev <br>
     </td>
   </tr>
 </table>
+
+<h3>dos and don'ts</h3>
+<ul>
+  <li>Mentioning any glyphs or emojis in the tweets will get you an error message</li>
+  <li>There should be no space inbetween key value pairs while writing the parameters </li>
+  <li>Paramaters can be seperated by the space/multispace or by commas/multicommas</li>
+  <li>The bot's username must be mentioned at the beginning of the tweet, 
+    positioning the username inbetween will get you an error message </li>
+</ul>
