@@ -1,20 +1,23 @@
-<h1>@AlQuranBot_</h1>
+<h3 style="text-align:center">بِسْمِ ٱللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h3> 
+<h1>@AlQuranBot_ Bot Documentation</h1>
 
 This bot will help the users to easily retrive Quranic ayahs on twitter micro blogging site
 
-<h3>How to Retrive The Ayah</h3>
+<h3>How to retrieve The ayah</h3>
 
-In its simplified version the English translation of Ayah can be retrieved by first mentioning the username of bot (@AlQuranBot_) followed by two paramaters surah={value} or s_name={value} and ayah={value} e.g
+In its simplified version the English translation of ayah can be retrieved by first mentioning the username of bot (@AlQuranBot_) followed by two paramaters(key value pairs) surah={value} or s_name={value} and ayah={value} e.g
  <h4> @AlQuranBot_  surah=22 ayah=4 </h4> 
  or 
  <h4> @AlQuranBot_  s-name=Al-Baqara ayah=32 </h4>
-Alert:-By default the bot will retrve and reply the mentioned tweet with Englsih Translation by Ahmad Ali , You can change the edition(tranlitation) by passing in the 'ed' parameter ,hook with us and and we will discuss how to do that very soon
+Alert:-By default the bot will retrieve and reply the mentioned tweet with Englsih Translation by Ahmad Ali , You can change the edition(translation) by passing in the 'ed' parameter ,hook with us and and we will discuss how to do that very soon
 <br>
-<h3>How to get Differnet editions (translions) of Quran and in different languages</h3>
 
-Users can get the translitation of their own choice and the choice of thier own language just by writing one extra paramater ed={value} e.g
-ed='en.AhmadAli' ,here en represents english and Ahmad Ali reprersents the translation writer,All the avilable values are written below 
-As of now we proved 139 editions by different people in different languages ,Thanks to www.alquran.com for providing free API's and making it possible for us to spread their work , May Allah bless their team 
+
+<h3>How to get differnet editions (translations) of Quran and in different languages</h3>
+
+Users can get the translations of their own choice and the choice of thier own language just by writing one extra paramater ed={value} e.g
+ed=en.AhmadAli , here 'en' represents english and Ahmad Ali reprersents the writers name.All the values are written below and
+as of now we provide 138 editions by different people in different languages ,Thanks to <a href="https://alquran.cloud/">Al Quran API's</a>  for providing free API's and making it possible for us to spread their work , May Allah bless their team 
  
  <h3>Commonds/Parameters<h3>
   
@@ -46,7 +49,7 @@ As of now we proved 139 editions by different people in different languages ,Tha
   </tr>
 </table>
 <h6>We all are very much familier with the values of surah and ayah so we will be mentioning the value of s-name and ed ony.This will help you to  fetch the diferent editions easily</h6>
-<h3>Vaues for Edition and S-name </h3>
+<h3>Vaues for ed and s-name </h3>
 
 <table>
   <tr>
