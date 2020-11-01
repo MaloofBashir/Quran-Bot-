@@ -319,3 +319,8 @@ az.mammadaliyev <br>
   <li>The bot's username must be mentioned at the beginning of the tweet, 
     positioning the username inbetween will get you an error message </li>
 </ul>
+
+<hr>
+To make things easy for urdu speaking people,they can write <code>ed=urdu</code> to retrieve the urdu translation of Quran.By default the bot will reply with Ahmad Ali's edition of quran
+
+<hr> We thank you all for comming and reading our this documentation 
