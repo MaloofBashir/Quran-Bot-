@@ -1,7 +1,7 @@
 <h3 align="center">بِسْمِ ٱللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h3>
 
 <h1 align="center">@AlQuranBot_  Documentation</h1> <hr>
-<h6>Assalaamu Álaykum and welcome to our documention page <h6> <hr>
+<h5>Assalaamu Álaykum and welcome to our documention page <h5> <hr>
 This bot will help users to easily retrive Quranic ayahs on twitter micro blogging website,The bot has been restricted to fetch only single ayah at once because of twitter limting API request policy <hr>
 
 <h3>How to retrieve The ayah</h3>
