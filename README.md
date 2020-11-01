@@ -1,5 +1,5 @@
 <h3 align="center">بِسْمِ ٱللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h3> 
-<h1>@AlQuranBot_ Bot Documentation</h1> <hr>
+<h1>@AlQuranBot_  Documentation</h1> <hr>
 This bot will help the users to easily retrive Quranic ayahs on twitter micro blogging site,The bot has been restricted to fetch only single ayah at once because of twitter limting API request policy <hr>
 
 <h3>How to retrieve The ayah</h3>
@@ -48,8 +48,8 @@ Users can get the translations of their own choice and the choice of thier own l
 
 <table>
   <tr>
-    <th>s-surah</th>
-    <th>ed</th>
+    <th>s-name</th>
+   <th><code>ed</code></th>
   </tr>
   <tr>
     <td>
