@@ -323,4 +323,4 @@ az.mammadaliyev <br>
 <hr>
 To make things easy for urdu speaking people,they can write <code>ed=urdu</code> to retrieve the urdu translation of Quran.By default the bot will reply with Ahmad Ali's edition of quran
 
-<hr> We thank you all for comming and reading our this documentation 
+<hr> We thank you all for comming and reading this documentation page, The bot is still in testing and development mode,for any kinds of queries and suggestions mail us at maloofbashir70@gmail.com or send direct dm to our bot account
