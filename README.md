@@ -1,7 +1,7 @@
 <h3 align="center">بِسْمِ ٱللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h3>
 
 <h1 align="center">@AlQuranBot_  Documentation</h1> <hr>
-<h5>Assalaamu Álaykum and welcome to our documention page <h5> <hr>
+<h5>Assalaamu Álaykum and welcome to our documentation page <h5> <hr>
 This bot will help users to easily retrive Quranic ayahs on twitter micro blogging website,The bot has been restricted to fetch only single ayah at once because of twitter limting API request policy <hr>
 
 <h3>How to retrieve The ayah</h3>
@@ -46,7 +46,7 @@ Users can get the translations of their own choice and the choice of thier own l
   </tr>
 </table>
 <h6>We all are very much familiar with the values of surah and ayah so we will be mentioning the values of s-name and ed ony.This will help you to  fetch the diferent editions easily</h6>
-<h3>Vaues for ed and s-name </h3>
+<h3>Values for ed and s-name </h3>
 
 <table>
   <tr>
@@ -325,4 +325,4 @@ az.mammadaliyev <br>
 <hr>
 To make things easy for urdu speaking people,they can write <code>ed=urdu</code> to retrieve the urdu translation of Quran.By default the bot will reply with Ahmad Ali's edition of quran
 
-<hr> We thank you all for comming and reading this documentation page, The bot is still in testing and development mode,for any kinds of queries and suggestions mail us at maloofbashir70@gmail.com or send direct dm to our bot account
+<hr> We thank you all for comming and reading this documentation page, The bot is still in testing and development phase,for any kinds of queries and suggestions mail us at maloofbashir70@gmail.com or send dm to our bot account
