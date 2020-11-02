@@ -2,7 +2,7 @@
 
 <h1 align="center">@AlQuranBot_  Documentation</h1> <hr>
 <h5>Assalaamu Álaykum and welcome to our documentation page <h5> <hr>
-This bot will help users to easily retrive Quranic ayahs on twitter micro blogging website,The bot has been restricted to fetch only single ayah at once because of twitter limting API request policy <hr>
+This bot will help users to easily retrieve Quranic ayahs on twitter microblogging website,The bot has been restricted to fetch only single ayah at once because of twitter limting API request policy <hr>
 
 <h3>How to retrieve The ayah</h3>
 In its simplified version,english translation of ayah can be retrieved by first mentioning the username of bot (@AlQuranBot_) followed by two parameters(key value pairs) <code>surah={value}</code>or<code>s_name={value}</code>and<code>ayah={value}</code> e.g <br>
