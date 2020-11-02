@@ -15,7 +15,7 @@ By default the bot will retrieve and reply the mentioned tweet with englsih Tran
 <h3>How to get differnet editions (translations) of Quran and in different languages</h3>
 
 Users can get the translations of their own choice and the choice of thier own language just by writing one extra parameter <code> ed={value}</code> e.g <code>ed=hi.farooq</code> as shown in images below , here <code>hi</code> represents hindi language and Farooq reprersents the writer's name.All values are written below in a table below .we provide 139 editions by different people in different languages ,Thanks to <a href="https://alquran.cloud/">Al Quran API's</a>  for providing free API's and making it possible for us to spread their work , May Allah bless their team <br>
- <img src="https://user-images.githubusercontent.com/44017606/97796436-2043e980-1c38-11eb-9669-031104395899.jpg" alt="" height="350" width="300"><br><br><br><img src="https://user-images.githubusercontent.com/44017606/97796476-87619e00-1c38-11eb-80a8-792c490a2d4e.jpg" alt="" height="300" width="300"> <br>
+ <img src="https://user-images.githubusercontent.com/44017606/97796436-2043e980-1c38-11eb-9669-031104395899.jpg" alt="" height="400" width="300"><br><br><br><img src="https://user-images.githubusercontent.com/44017606/97796476-87619e00-1c38-11eb-80a8-792c490a2d4e.jpg" alt="" height="400" width="300"> <br>
  <h3>Commands/Parameters<h3>
   
 <table>
