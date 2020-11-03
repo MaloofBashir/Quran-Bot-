@@ -28,9 +28,9 @@ def FetchData(string):
         s=string.replace(',',' ').split()
         t=[]
         r=[]
-        length=len(s)
-        for i in range(1,length):
-            t.append(s[i])
+        for i in s:
+            if "=" in i:
+                t.append(i)
         for i in t:
             r.append(i.split('='))
 
@@ -82,11 +82,11 @@ def reply(text,tweet):
                     id=reply_tweet.id
                 else:
                     no=i+1
-                    reply_tweet=api.update_status("@"+tweet.user.screen_name+" T"+str(no)+": "+'بسم الله الرحمن الرحيم'+'\n'+ text[i]+"+",id)
+                    reply_tweet=api.update_status("@"+tweet.user.screen_name+" T"+str(no)+": "+'بسم الله الرحمن الرحيم'+'\n'+ text[i]+" +",id)
                     id=reply_tweet.id
             elif i != len(text)-1:
                 no=i+1
-                reply_tweet=api.update_status("@"+tweet.user.screen_name+" T"+str(no)+": "+ text[i]+"+",id)
+                reply_tweet=api.update_status("@"+tweet.user.screen_name+" T"+str(no)+": "+ text[i]+" +",id)
                 id=reply_tweet.id
             else:
                 no=i+1
