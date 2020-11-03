@@ -31,6 +31,6 @@ while True:
             if "ayah" in tw_text.lower():
                 twt=tweets[i]
                 Last_reply(twt)
-                time.sleep(30)
+                time.sleep(60)
     else:
-        time.sleep(30)
+        time.sleep(60)

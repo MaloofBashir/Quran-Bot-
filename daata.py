@@ -138,15 +138,15 @@ def Last_reply(tweet):
                 quran_text=["Errorr","sorry, we can't interpret your data.please enter the correct details"]
             reply(quran_text,tweet)
             store_tweetid(tweet.id)
-            time.sleep(60*1.5)
+            time.sleep(60)
         else:
             quran_text=["Errorr","sorry, we can't interpret your data.please enter the correct details"]
             reply(quran_text,tweet)
             store_tweetid(tweet.id)
-            time.sleep(60*1.5)
+            time.sleep(60)
 
     except tweepy.TweepError as e:
         print(e.reason)
-        time.sleep(60*1.5)
+        time.sleep(60)
     except ConnectionError as e:
-        time.sleep(1)
+        time.sleep(60)
