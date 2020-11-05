@@ -24,7 +24,7 @@ non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
 while True:
     id=return_tweetid()
-    tweets=api.mentions_timeline(id)
+    tweets=api.mentions_timeline(id,count=1)
     if tweets:
         for i in reversed(range(len(tweets))):
             tw_text=tweets[i].text.translate(non_bmp_map)
