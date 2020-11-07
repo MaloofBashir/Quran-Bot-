@@ -138,7 +138,7 @@ def Last_reply(tweet):
                 quran_text=["Errorr","sorry, we can't interpret your data.please enter the correct details"]
             reply(quran_text,tweet)
             store_tweetid(tweet.id)
-            time.sleep(60*)
+            time.sleep(60)
         else:
             quran_text=["Errorr","sorry, we can't interpret your data.please enter the correct details"]
             reply(quran_text,tweet)
