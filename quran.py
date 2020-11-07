@@ -24,6 +24,9 @@ non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
 while True:
     id=return_tweetid()
+    if id=="":
+        id=new_id
+    new_id=id
     tweets=api.mentions_timeline(id,count=1)
     if tweets:
         for i in reversed(range(len(tweets))):
@@ -32,5 +35,8 @@ while True:
                 twt=tweets[i]
                 Last_reply(twt)
                 time.sleep(60)
+            else:
+                time.sleep(60)
+                pass
     else:
         time.sleep(60)
