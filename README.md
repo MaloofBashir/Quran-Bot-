@@ -315,11 +315,9 @@ az.mammadaliyev <br>
 
 <h3>dos and don'ts</h3>
 <ul>
-  <li>Mentioning any glyphs or emojis in the tweets will get you an error message</li>
   <li>There should be no space inbetween key value pairs while writing the parameters </li>
   <li>Paramaters can be seperated by the space/multispace or by commas/multicommas</li>
-  <li>The bot's username must be mentioned at the beginning of the tweet, 
-    positioning the username inbetween will get you an error message </li>
+  
 </ul>
 
 <hr>
