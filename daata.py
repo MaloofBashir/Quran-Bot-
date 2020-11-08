@@ -22,7 +22,7 @@ auth.set_access_token(key, secret)
 
 api = tweepy.API(auth,wait_on_rate_limit=True)
 
-"""Fetching the data from the tweet and coverting it into a dictionary"""
+"""Fetching the text data from the tweet and coverting it into a dictionary"""
 def FetchData(string):
     try:
         s=string.replace(',',' ').split()
@@ -47,26 +47,27 @@ def FetchData(string):
         return dict
     except (ValueError,IndexError,KeyError):
         return 0
-#Trauncting the text if the text is more than twitter character limit
+'''Trauncting the text into the list of strings with each string of length
+235 characters'''
 text=[]
 def TrauncateText(text):
     text=textwrap.wrap(text,235)
     return text
 
-#return tweet id from the file
+'''return tweet id from the text file'''
 
 def return_tweetid():
     f=open(r"lasttweet.txt")
     tweet_id=f.readline()
     return tweet_id
 
-#Storing tweet id into the text file
+'''Storing tweet id into the text file'''
 
 def store_tweetid(tweetd_id):
     f=open(r"lasttweet.txt","w")
     f.write(str(tweetd_id))
 
-#This will reply a whole truncated text to a tweet
+'''This will reply a list of truncated text to a tweet one by one'''
 
 def reply(text,tweet):
     if text[0]=='Errorr':
@@ -95,8 +96,8 @@ def reply(text,tweet):
 
 
 
-#Takes in the whole surah and returns text from start to end in the form of list
-
+'''This will fetch the text of a particular ayah using API's and will store it
+into the list of items '''
 def TextData(dict):
         if 's-name' not in dict.keys():
             surah=int(dict['surah'])
@@ -123,9 +124,10 @@ def TextData(dict):
             quran_text=textwrap.wrap(quran_text,235)
             return quran_text
         else:
-            quran_text=["Errorr","sorry,we can't interpret your data.Please enter the correct details"]
+            quran_text=["Error","sorry,we can't interpret your data.Please enter the correct details"]
             return quran_text
-
+'''Doing the whole job of replying,deciphering the whole text
+ and replying the tweet with apporopate text'''
 def Last_reply(tweet):
     try:
         tweet_text=tweet.text.encode('utf-8')
@@ -135,12 +137,12 @@ def Last_reply(tweet):
             try:
                 quran_text=TextData(dict)
             except (KeyError,ValueError,IndexError):
-                quran_text=["Errorr","sorry, we can't interpret your data.please enter the correct details"]
+                quran_text=["Error","sorry, we can't interpret your data.please enter the correct details"]
             reply(quran_text,tweet)
             store_tweetid(tweet.id)
             time.sleep(60)
         else:
-            quran_text=["Errorr","sorry, we can't interpret your data.please enter the correct details"]
+            quran_text=["Error","sorry, we can't interpret your data.please enter the correct details"]
             reply(quran_text,tweet)
             store_tweetid(tweet.id)
             time.sleep(60)
